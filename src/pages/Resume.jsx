@@ -1,7 +1,7 @@
 const Resume = () => {
   return (
     <>
-      <h1>Resume page</h1>
+      <a href="Anchi Chen Resume.pdf" download={true}>Resume</a>
     </>
   )
 }
