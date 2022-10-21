@@ -1,4 +1,3 @@
-import { projects } from "../../src/data/project"
 import { findProject } from "../utilities/findProject";
 import { useParams } from "react-router-dom";
 
