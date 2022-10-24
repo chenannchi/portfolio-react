@@ -5,14 +5,15 @@ import About from './pages/About'
 import Contact from './pages/Contact'
 import Resume from './pages/Resume'
 import Projects from './pages/Projects'
-import NavBar from './components/NavBar';
-import ProjectDetails from './pages/ProjectDetails';
+import NavBar from "./components/NavBar/NavBar"
+import ProjectDetails from './pages/ProjectDetails'
 
 function App() {
   return (
     <>
       <NavBar />
       <Routes>
+        <Route path="/" element={< About />} />
         <Route path="/about" element={< About />} />
         <Route path="/contact" element={< Contact />} />
         <Route path="/home" element={< Home />} />
