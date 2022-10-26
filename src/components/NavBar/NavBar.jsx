@@ -4,11 +4,13 @@ import styles from "./NavBar.module.css"
 function NavBar() {
     return (
         <nav className={styles.navbar}>
-            <Link to='/'>
-                Anchi Chen
-            </Link>
 
             <ul>
+                <li>
+                    <Link to='/'>
+                        Anchi Chen
+                    </Link>
+                </li>
                 <li>
                     <Link to='/about'>
                         About

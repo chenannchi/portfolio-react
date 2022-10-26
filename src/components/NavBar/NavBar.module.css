@@ -1,4 +1,23 @@
-.navbar{
-  background-color: green;
+a{
+  text-decoration: none;
+  color: #AA8B56;
 }
+
+ul{
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0;
+  padding: 15px 5px;
+  font-size: 100%;
+  font-weight: bold;
+  width: 100vw;
+}
+
+.navbar{
+  background-color: #395144;
+}
+
+
 
