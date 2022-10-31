@@ -6,11 +6,11 @@ function NavBar() {
         <nav className={styles.navbar}>
 
             <ul>
-                <li>
+                {/* <li>
                     <Link to='/'>
                         Anchi Chen
                     </Link>
-                </li>
+                </li> */}
                 <li>
                     <Link to='/about'>
                         About

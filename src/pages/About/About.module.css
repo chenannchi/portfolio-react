@@ -1,0 +1,12 @@
+.profileImage{
+  border-radius: 50%;
+}
+
+.brandStatement{
+  background-color: white;
+  border-radius: 10px;
+  margin: 40px 10px;
+  padding:10px;
+  text-align:center;
+}
+

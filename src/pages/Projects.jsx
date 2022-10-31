@@ -4,9 +4,9 @@ import {projects} from "../data/project.js"
 const Projects = () => {
   console.log(projects)
   return ( 
-    <>
+    <main>
       <ProjectsList projects={projects} />
-    </>
+    </main>
   )
 }
  
