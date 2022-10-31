@@ -1,8 +1,10 @@
 import { Link } from "react-router-dom";
-import { hyphenateWord } from "../utilities/hyphenateWords";
+import { hyphenateWord } from "../../utilities/hyphenateWords";
+import styles from "../Projects/Projects.module.css"
+
 const ProjectPreview = (props) => {
   return (
-    <div>
+    <div className={styles.container}>
       <img
         src={props.image}
         alt={props.title}

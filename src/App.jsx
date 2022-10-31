@@ -4,9 +4,9 @@ import Home from './pages/Home'
 import About from "./pages/About/About"
 import Contact from './pages/Contact/Contact'
 import Resume from './pages/Resume'
-import Projects from './pages/Projects'
+import Projects from './pages/Projects/Projects'
 import NavBar from "./components/NavBar/NavBar"
-import ProjectDetails from './pages/ProjectDetails'
+import ProjectDetails from './pages/Projects/ProjectDetails'
 
 function App() {
   return (
