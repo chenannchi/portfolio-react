@@ -44,12 +44,13 @@ img{
 main{
   background-color: rgb(228, 228, 220);
   min-height: 93vh;
-  width: 100%;
+  width: 100vw;
   display: flex;
   align-items: center;
   justify-content: flex-start;
   flex-direction: column;
   /* padding: 10px 20px; */
+  margin-top: 7vh;
 }
 
 ul{

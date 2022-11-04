@@ -6,7 +6,7 @@
 }
 
 .aboutImg{
-  background-image: url("../../../public/plant.jpg");
+  background-image: url("../../../public/images/plant.jpg");
   background-size:cover;
   width: 100vw;
 }
@@ -31,5 +31,6 @@
   /* text-align: center; */
   font-size: 18px;
 }
+
 
 

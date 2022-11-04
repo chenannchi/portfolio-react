@@ -3,9 +3,8 @@ import styles from "../About/About.module.css"
 const About = () => {
   return ( 
     <main>
-      {/* <img src="plant.jpg" alt="plant" /> */}
       <div className={styles.aboutImg}>
-        <img className={styles.profileImage} src="photo.jpg" alt="profile" />
+        <img className={styles.profileImage} src="./images/photo.jpg" alt="profile" />
       </div>
       <div className={styles.brandStatement}>
         <div>Brand Statement</div>

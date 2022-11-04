@@ -10,6 +10,13 @@ function NavBar() {
                         Anchi Chen
                     </Link>
                 </li> */}
+
+                <li>
+                    <Link to='/home'>
+                        Home
+                    </Link>
+                </li>
+
                 <li>
                     <Link to='/about'>
                         About
@@ -19,12 +26,6 @@ function NavBar() {
                 <li>
                     <Link to='/contact'>
                         Contact
-                    </Link>
-                </li>
-
-                <li>
-                    <Link to='/home'>
-                        Home
                     </Link>
                 </li>
 

@@ -1,0 +1,36 @@
+.profile{
+  border-radius: 50%;
+  margin: 5%;
+  width: 50vw;
+}
+
+.homeImage{
+  background-image: url("/public/images/plant-top.jpg");
+  background-size:cover;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 25px;
+  min-height: 93vh;
+}
+
+.titleContainer{
+  background-color: rgba(245, 245, 220,.8);
+  border-radius: 10px;
+  margin: 10px;
+  padding: 5px 15px;
+}
+
+#name{
+  font-size: 30px;
+}
+
+#title{
+  font-size: 20px;
+}
+
+#welcome{
+  font-size: 22px;
+}
