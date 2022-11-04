@@ -1,6 +1,6 @@
 import { findProject } from "../../utilities/findProject";
 import { useParams } from "react-router-dom";
-import styles from "../Projects/Project.module.css"
+// import styles from "../Projects/Project.module.css"
 
 const ProjectDetails = () => {
   let projectDetails = useParams()
