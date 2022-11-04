@@ -1,12 +1,35 @@
 .profileImage{
   border-radius: 50%;
+  margin: 5%;
+  width: 50vw;
+  border: 1px #395144 double;
+}
+
+.aboutImg{
+  background-image: url("../../../public/plant.jpg");
+  background-size:cover;
+  width: 100vw;
 }
 
 .brandStatement{
-  background-color: white;
+  background-color: #395144;
   border-radius: 10px;
-  margin: 40px 10px;
-  padding:10px;
+  margin: 20px 10px;
+  padding:10px 25px;
   text-align:center;
+  width: 85vw;
+  /* font-size: 15px; */
 }
+
+.brandStatement > div{
+  font-size: 30px;
+  color: #AA8B56;
+}
+
+.brandStatement > p{
+  color: #F0EBCE;
+  /* text-align: center; */
+  font-size: 18px;
+}
+
 

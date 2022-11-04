@@ -7,7 +7,7 @@ ul{
   list-style-type: none;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   margin: 0;
   /* padding: 15px 5px; */
   font-size: 100%;
@@ -15,12 +15,18 @@ ul{
   width: 100vw;
 }
 
+li{
+  margin: 0 1%;
+}
+
 .navbar{
   background-color: #395144;
-  height: 5vh;
+  height: 7vh;
+  width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0;
 }
 
 
