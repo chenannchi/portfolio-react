@@ -1,8 +1,31 @@
 .container{
-  border: 2px black solid;
+  /* border: 2px black solid; */
+  border-radius: 20px;
   margin: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding-bottom: 20px;
+  background-color: var(--bg-color);
+}
+
+.container:hover{
+  background-color: #9BA17B;
+}
+
+.container > img{
+  border-radius: 20px 20px 0 0;
+}
+
+.container > h3{
+  color: var(--font-color);
+}
+
+.container:hover h3{
+  color: var(--bg-color);
+}
+
+@media (min-width:1024px) {
+  
 }

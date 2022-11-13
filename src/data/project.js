@@ -1,5 +1,12 @@
 export const projects = [
   {
+    title:"Playlist Collector",
+    description:"Collect your favorite songs by creating some playlists!Share your idea by leaving comments with others below each playlist!Finally, let's heal together by listening to music!",
+    image:"../../images/playlist_collector.png",
+    repositoryLink:"https://github.com/chenannchi/playlist-collector",
+    deploymentLink:""
+  },
+  {
     title:"Giftology",
     description:"Our goal for our application (Giftology) is to reduce the number of hours trying to find the perfect gift for your loved ones. Giftology allows you to create your wishlist and let your friends view your wishlists. It allows users to improve their gift-giving experience by facilitating the communication between gift-givers and receivers. Also, allow for reducing resource waste generated from gifting gone wrong.",
     image:"../../images/giftology.png",

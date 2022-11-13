@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <main className={styles.pageContainer}>
       <div className={styles.container}>
-        <h2>Feel free to contact and follow me!</h2>
+        <h2>Feel free to <br />contact & follow me!</h2>
         <div className={styles.icons}>
           <a href="mailto: anchichenusa@gmail.com">
             <img src="https://cdn-icons-png.flaticon.com/128/8760/8760637.png" alt="email icon" />

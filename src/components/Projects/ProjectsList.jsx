@@ -5,7 +5,7 @@ const ProjectsList = (props) => {
     <>
       {props.projects.map((project, idx) => (
         // <li key={idx}>
-          <ProjectPreview key={idx} title={project.title} image={project.image} />
+          <ProjectPreview key={idx} project={project} />
         // </li>
       ))}
     </>
