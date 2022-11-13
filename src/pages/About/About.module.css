@@ -32,5 +32,27 @@
   font-size: 18px;
 }
 
+@media (min-width:1024px) {
+  .profileImage{
+    width: 20vw;
+    margin: 20px;
+  }
 
+  .aboutImg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: none;
+  }
+  
+  .pageContainer{
+    background-image: url(../../../public/images/plant-top-left-bottom-right.jpg);
+    background-size: cover;
+    
+  }
+
+  .brandStatement{
+    max-width: 600px;
+  }
+}
 

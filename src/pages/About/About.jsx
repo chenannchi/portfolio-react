@@ -2,7 +2,7 @@ import styles from "../About/About.module.css"
 
 const About = () => {
   return ( 
-    <main>
+    <main className={styles.pageContainer}>
       <div className={styles.aboutImg}>
         <img className={styles.profileImage} src="./images/photo.jpg" alt="profile" />
       </div>
