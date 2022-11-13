@@ -31,5 +31,15 @@ li{
   top:0;
 }
 
+.resumeLink{
+  border: 2px solid;
+  padding: 5px;
+}
+
+.resumeLink:hover{
+  background-color: #AA8B56;
+  color: white;
+}
+
 
 

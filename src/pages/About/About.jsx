@@ -7,7 +7,6 @@ const About = () => {
         <img className={styles.profileImage} src="./images/photo.jpg" alt="profile" />
       </div>
       <div className={styles.brandStatement}>
-        <div>Brand Statement</div>
         <p>
         As a software engineer with a background in healthcare administration and computer science, I bring a detail-oriented and self-motivated mindset to what I build. 
         <br />
