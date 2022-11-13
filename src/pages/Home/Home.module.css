@@ -34,3 +34,10 @@
 #welcome{
   font-size: 22px;
 }
+
+@media (min-width:1024px) {
+  .profile{
+    width: 20vw;
+    margin: 1%;
+  }
+}
