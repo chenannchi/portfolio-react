@@ -12,6 +12,10 @@
   margin: 10px;
 }
 
+.icons img:hover{
+  background-color: #A27B5C;
+}
+
 .container{
   /* border: 2px black solid; */
   margin: 20px;
@@ -20,4 +24,18 @@
   background-color: #395144;
   color:var(--font-color);
   padding: 20px;
+}
+
+@media (min-width:1024px) {
+  .container{
+    width:600px;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container > *{
+    margin: 10px;
+  }
 }
