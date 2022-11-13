@@ -15,6 +15,14 @@ ul{
   width: 100vw;
 }
 
+li:hover{
+  border-bottom: 2px white solid;
+}
+
+a:hover{
+  color: white;
+}
+
 li{
   margin: 0 1%;
 }
@@ -41,5 +49,9 @@ li{
   color: white;
 }
 
-
+@media (min-width:1024px) {
+  ul{
+    justify-content: flex-end;
+  }
+}
 
