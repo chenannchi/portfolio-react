@@ -14,10 +14,11 @@
   flex-direction: column;
   padding: 25px;
   min-height: 93vh;
+  text-align: center;
 }
 
 .titleContainer{
-  background-color: rgba(245, 245, 220,.8);
+  background-color: rgba(245, 245, 220,.9);
   border-radius: 10px;
   margin: 10px;
   padding: 5px 15px;
@@ -37,7 +38,11 @@
 
 @media (min-width:1024px) {
   .profile{
-    width: 20vw;
-    margin: 1%;
+    width: 30vw;
+    margin: 0 10%;
+  }
+
+  .homeImage{
+    flex-direction: row;
   }
 }
