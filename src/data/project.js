@@ -4,7 +4,7 @@ export const projects = [
     description:"Collect your favorite songs by creating some playlists!Share your idea by leaving comments with others below each playlist!Finally, let's heal together by listening to music!",
     image:"../../images/playlist_collector.png",
     repositoryLink:"https://github.com/chenannchi/playlist-collector",
-    deploymentLink:""
+    deploymentLink:"https://healing-playlist-collector.herokuapp.com/"
   },
   {
     title:"Giftology",
