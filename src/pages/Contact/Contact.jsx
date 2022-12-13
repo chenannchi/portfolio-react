@@ -4,6 +4,7 @@ import { ContactUs } from "../../components/Contact/ContactUs"
 const Contact = () => {
   return (
     <main className={styles.pageContainer}>
+      <h1>Contact</h1>
       <div className={styles.container}>
         {/* <div> */}
         <ContactUs />
