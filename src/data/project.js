@@ -29,7 +29,7 @@ export const projects = [
   },  
   {
     title:"Tic Tac Toe",
-    description:"Tic Tac Toe is the first game I built by myself.",
+    description:"Tic Tac Toe is the first game I built by myself. It was built around holloween so I put some cute pumpkins and ghosts icons as the tokens for the players.",
     image:"../../images/ttt.png",
     repositoryLink:"https://github.com/chenannchi/ttt-weekend",
     deploymentLink:"https://chenannchi-ttt.netlify.app/"
