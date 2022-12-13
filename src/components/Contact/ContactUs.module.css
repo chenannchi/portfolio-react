@@ -3,6 +3,8 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .form > label{
@@ -22,6 +24,23 @@
 
 .submitBtn{
   width: 100%;
+  
+}
+
+.btn{
+  padding: 10px 5px;
+  margin: 5px;
+  border-radius: 10px;
+  background-color: #EDDFB3;
+  border: none;
+  color: var(--bg-color);
+  font-size: 20px;
+  width: 100px;
+}
+
+.btn:hover{
+  background-color: #A27B5C;
+  color: #EDDFB3;
 }
 
 .contactInfo{

@@ -26,7 +26,7 @@ export const ContactUs = () => {
     <h2>
       Send me an email!
     </h2>
-    <form ref={form} onSubmit={sendEmail} className={styles.form}>
+    <form ref={form} onSubmit={sendEmail} className={styles.form} autoComplete="off">
       <label>Name</label>
       <input type="text" name="user_name" />
       <label>Email</label>
@@ -34,7 +34,7 @@ export const ContactUs = () => {
       <label>Message</label>
       <textarea name="message" />
       <div className={styles.submitBtn} >
-        <input type="submit" value="Send"/>
+        <input type="submit" value="Send" className={styles.btn} />
       </div>
     </form>  
   </div>
