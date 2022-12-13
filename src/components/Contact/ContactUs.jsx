@@ -7,8 +7,6 @@ export const ContactUs = () => {
   const form = useRef();
   const [submit, setSubmit] = useState(false)
 
-  console.log(submit)
-
   const sendEmail = (e) => {
     e.preventDefault();
     setSubmit(!submit)

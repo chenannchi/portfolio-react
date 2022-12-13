@@ -1,3 +1,14 @@
+html,
+body,
+#root,
+main {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
 .App {
   text-align: center;
 }
