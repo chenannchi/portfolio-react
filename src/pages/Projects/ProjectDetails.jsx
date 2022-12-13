@@ -8,10 +8,13 @@ const ProjectDetails = () => {
   return (
     <main className={styles.pageContainer}>
       <div className={styles.container}>
-        <img src={project.image} alt="img"/>
         <h1>{project.title}</h1>
+        <img src={project.image} alt="img"/>
         <p>{project.description}</p>
         <div>
+          <a href="/projects">
+            <button>Return</button>
+          </a>
           <a href={project.repositoryLink} target="_blank" rel="noreferrer">
             <button>GitHub Repository</button>
           </a>
