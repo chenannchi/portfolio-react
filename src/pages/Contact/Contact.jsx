@@ -6,9 +6,7 @@ const Contact = () => {
     <main className={styles.pageContainer}>
       <h1>Contact</h1>
       <div className={styles.container}>
-        {/* <div> */}
         <ContactUs />
-        {/* </div> */}
       </div>
       <div className={styles.container}>
         <div className={styles.contactInfo}>
