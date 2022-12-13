@@ -54,3 +54,9 @@
   width: 30%;
 }
 
+#statusMsg{
+  font-size: 20px;
+  font-weight: bold;
+  color:#EDDFB3;
+}
+
