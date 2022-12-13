@@ -8,7 +8,7 @@ const ProjectDetails = () => {
   return (
     <main className={styles.pageContainer}>
       <div className={styles.container}>
-        <img src={project.image} alt="img" style={{width:"300px"}} />
+        <img src={project.image} alt="img"/>
         <h1>{project.title}</h1>
         <p>{project.description}</p>
         <div>
