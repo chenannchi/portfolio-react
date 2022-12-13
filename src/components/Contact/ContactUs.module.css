@@ -1,0 +1,36 @@
+.form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.form > label{
+  width:28%;
+}
+
+.form > input
+, .form > textarea{
+  width:68%;
+}
+
+.form > *{
+  margin: 5px;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.submitBtn{
+  width: 100%;
+}
+
+.contactInfo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactInfo:first-child{
+  width: 30%;
+}
+

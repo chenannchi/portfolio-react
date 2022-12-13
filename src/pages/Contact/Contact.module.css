@@ -24,13 +24,14 @@
   background-color: #395144;
   color:var(--font-color);
   padding: 20px;
+  width: 80vw;
 }
 
 @media (min-width:1024px) {
   .container{
     width:600px;
     display: flex;
-    /* flex-direction: row; */
+    flex-direction: column;
     justify-content: center;
     align-items: center;
   }
