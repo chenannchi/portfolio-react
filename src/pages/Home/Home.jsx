@@ -1,5 +1,4 @@
 import styles from "../Home/Home.module.css"
-// import About from "../About/About"
 
 const Home = () => {
   return (
