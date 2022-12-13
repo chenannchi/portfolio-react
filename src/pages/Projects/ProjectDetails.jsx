@@ -12,10 +12,10 @@ const ProjectDetails = () => {
         <h1>{project.title}</h1>
         <p>{project.description}</p>
         <div>
-          <a href={project.repositoryLink}>
+          <a href={project.repositoryLink} target="_blank" rel="noreferrer">
             <button>GitHub Repository</button>
           </a>
-          <a href={project.deploymentLink}>
+          <a href={project.deploymentLink} target="_blank" rel="noreferrer">
             <button>Deployed Application</button>
           </a>
         </div>
