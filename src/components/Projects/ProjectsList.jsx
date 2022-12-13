@@ -5,9 +5,7 @@ const ProjectsList = (props) => {
   return ( 
     <div className={styles.cardsContainer}>
       {props.projects.map((project, idx) => (
-        // <li key={idx}>
           <ProjectPreview key={idx} project={project} />
-        // </li>
       ))}
     </div>
   );

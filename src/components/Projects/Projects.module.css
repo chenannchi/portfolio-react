@@ -1,7 +1,6 @@
 .container{
-  /* border: 2px black solid; */
   border-radius: 20px;
-  margin: 20px;
+  margin: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -34,13 +33,14 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    width: 100vw;
   }
 
   .container{
-    width: 30vw;
+    width: 25vw;
   }
 
   .container > img{
-    width: 30vw;
+    width: 100%;
   }
 }
