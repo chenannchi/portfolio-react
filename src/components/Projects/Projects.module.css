@@ -1,13 +1,23 @@
+.cardsContainer{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
 .container{
   border-radius: 20px;
   margin: 10px;
   display: flex;
-  justify-content: center;
+  justify-content:space-between;
   align-items: center;
   flex-direction: column;
-  padding-bottom: 20px;
+  padding-bottom: 15%;
   background-color: var(--bg-color);
-  width: 80vw;
+  width: 150px;
+  height: 150px;
+  text-align: center;
 }
 
 .container:hover{
@@ -16,11 +26,12 @@
 
 .container > img{
   border-radius: 20px 20px 0 0;
-  width: 80vw;
+  width: 100%;
 }
 
 .container > h3{
   color: var(--font-color);
+  margin: 5px;
 }
 
 .container:hover h3{
@@ -28,16 +39,9 @@
 }
 
 @media (min-width:1024px) {
-  .cardsContainer{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-  }
-
   .container{
-    width: 25vw;
+    width: 250px;
+    height: 250px;
   }
 
   .container > img{
