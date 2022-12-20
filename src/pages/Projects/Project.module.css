@@ -2,10 +2,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 .container{
-  /* margin: 10px; */
+  margin: 10px 0;
   background-color: var(--bg-color);
   border-radius: 20px;
   padding: 10px 30px;
@@ -14,7 +15,7 @@
   align-items: center;
   flex-direction: column;
   text-align: justify;
-  width: 70vw;
+  width: 70%;
 }
 
 .container > h1{
