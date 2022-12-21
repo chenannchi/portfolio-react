@@ -25,7 +25,7 @@ export const projects = [
     description:"Connect Four is my first project I built during my time in General Assembly. I implemented some animations on the tokens and message. Also, I add a background music and sound effect to the game. The functionalites which I like the most is the hover effect that I add on the columns of the game board.",
     image:"../../images/connect4.png",
     repositoryLink:"https://github.com/chenannchi/Connect-Four",
-    deploymentLink:"https://anchi-chen-connect-four.netlify.app/game.html?"
+    deploymentLink:"https://anchi-chen-portfolio.netlify.app/projects/connect-four"
   },  
   {
     title:"Tic Tac Toe",
