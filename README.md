@@ -9,4 +9,6 @@
 - [ ] Adjust the size of the page containers in each page
 - [ ] Add the deployed application link of playlist-collector
 - [ ] Replace the background of Home page and About page.
+- [ ] Add dark mode
+- [ ] Add language (Mandarin) option
 - To be continued ...
