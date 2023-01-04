@@ -18,7 +18,6 @@
   padding:10px 25px;
   text-align:center;
   width: 85vw;
-  /* font-size: 15px; */
 }
 
 .brandStatement > div{
@@ -28,7 +27,6 @@
 
 .brandStatement > p{
   color: #F0EBCE;
-  /* text-align: center; */
   font-size: 18px;
 }
 
@@ -49,10 +47,6 @@
     background-image: url(../../../public/images/plant-top-left-bottom-right.jpg);
     background-size: cover;
     
-  }
-
-  .brandStatement{
-    max-width: 600px;
   }
 }
 
