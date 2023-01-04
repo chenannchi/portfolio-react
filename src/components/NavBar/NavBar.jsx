@@ -24,14 +24,14 @@ function NavBar() {
                 </li>
 
                 <li>
-                    <Link to='/contact'>
-                        Contact
+                    <Link to='/projects'>
+                        Projects
                     </Link>
                 </li>
 
                 <li>
-                    <Link to='/projects'>
-                        Projects
+                    <Link to='/contact'>
+                        Contact
                     </Link>
                 </li>
 
