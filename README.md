@@ -1,4 +1,15 @@
 # My Portfolio
+
+## Technologies Used
+- HTML
+- CSS
+- JavaScript
+- Emailjs
+- React
+- Git/GitHub
+
+
+
 ## Credits
 - Icons from [Flaticon](https://www.flaticon.com/)
 - Favicon from [favicon.io](https://favicon.io/)
