@@ -12,7 +12,11 @@ const ProjectPreview = (props) => {
           src={props.project.image}
           alt={props.project.title}
         />
-        <h3>{props.project.title}</h3>
+        <div id={styles.title}>
+          <div>
+            {props.project.title}
+          </div>
+        </div>
       </div>
     </Link>
   );
