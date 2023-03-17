@@ -1,10 +1,18 @@
 export const projects = [
+  // {
+  //   title:"Playlist Collector(Undeployed)",
+  //   description:"Collect your favorite songs by creating some playlists! Share your idea by leaving comments with others below each playlist! Finally, let's heal together by listening to music!",
+  //   image:"../../images/playlist_collector.png",
+  //   repositoryLink:"https://github.com/chenannchi/playlist-collector",
+  //   deploymentLink:"https://healing-playlist-collector.herokuapp.com/"
+  // },
   {
-    title:"Playlist Collector(Undeployed)",
-    description:"Collect your favorite songs by creating some playlists! Share your idea by leaving comments with others below each playlist! Finally, let's heal together by listening to music!",
-    image:"../../images/playlist_collector.png",
-    repositoryLink:"https://github.com/chenannchi/playlist-collector",
-    deploymentLink:"https://healing-playlist-collector.herokuapp.com/"
+    title:"Beauty Beyond Barriers",
+    description:"Beauty Beyond Barriers was created during a hackathon project for Estee Lauder Accessible Beauty Hackathon. This project aims to create accessible and inclusive technology solutions for those shopping for and using beauty products.",
+    image:"../../images/bbb.png",
+    repositoryLink:"https://github.com/chenannchi/beauty-beyond-barriers-front-end",
+    deploymentLink:"https://beautybeyondbarriers.netlify.app/"
+
   },
   {
     title:"Giftology",

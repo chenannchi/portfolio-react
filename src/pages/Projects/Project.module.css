@@ -1,3 +1,23 @@
+button{
+  padding: 10px 5px;
+  margin: 5px;
+  border-radius: 10px;
+  background-color: #EDDFB3;
+  border: none;
+  color: var(--bg-color);
+}
+
+button:hover{
+  background-color: #A27B5C;
+  color: #EDDFB3;
+}
+
+.container img
+,.container p
+{
+  width: 100%;
+}
+
 .pageContainer{
   display: flex;
   justify-content: center;
@@ -9,7 +29,7 @@
   margin: 10px 0;
   background-color: var(--bg-color);
   border-radius: 20px;
-  padding: 10px 30px;
+  padding: 5px 10px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -36,16 +56,9 @@
   margin: 15px 0;
 }
 
-button{
-  padding: 10px 5px;
-  margin: 5px;
-  border-radius: 10px;
-  background-color: #EDDFB3;
-  border: none;
-  color: var(--bg-color);
-}
-
-button:hover{
-  background-color: #A27B5C;
-  color: #EDDFB3;
+.actions{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2%;
 }
