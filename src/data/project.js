@@ -7,6 +7,13 @@ export const projects = [
   //   deploymentLink:"https://healing-playlist-collector.herokuapp.com/"
   // },
   {
+    title:"Riji",
+    description:"(under development) An application that reinterprets the exchange diary. It helps users record and share their lives with their loved ones through exchanging their diaries. ",
+    image:"../../images/Riji.png",
+    repositoryLink:"https://github.com/chenannchi/riji-front-end",
+    deploymentLink:"https://exchange-diary-riji.netlify.app/"
+  },
+  {
     title:"Beauty Beyond Barriers",
     description:"Beauty Beyond Barriers was created during a hackathon project for Estee Lauder Accessible Beauty Hackathon. This project aims to create accessible and inclusive technology solutions for those shopping for and using beauty products.",
     image:"../../images/bbb.png",
