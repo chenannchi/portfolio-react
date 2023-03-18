@@ -4,10 +4,11 @@ import styles from "../Projects/Projects.module.css"
 
 const ProjectPreview = (props) => {
   return (
-    <Link
-      to={`/projects/${hyphenateWord(props.project.title)}`}
-    >
-      <div className={styles.container}>
+    // <div>
+    <div className={styles.container}>
+      <Link
+        to={`/projects/${hyphenateWord(props.project.title)}`}
+      >
         <img
           src={props.project.image}
           alt={props.project.title}
@@ -17,8 +18,9 @@ const ProjectPreview = (props) => {
             {props.project.title}
           </div>
         </div>
-      </div>
-    </Link>
+      </Link>
+    </div>
+    // </div>
   );
 }
 
