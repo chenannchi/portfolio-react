@@ -45,7 +45,7 @@
 }
 
 .brandStatement>div:first-child {
-  font-size: 25px;
+  font-size: 30px;
   color: var(--content-color);
   font-weight: bolder;
   font-family: 'Noto Serif Lao', serif;
@@ -69,8 +69,8 @@
 
 .brandStatement>p {
   color: #F0EBCE;
-  font-size: 15px;
-  text-align: justify;
+  font-size: 20px;
+  text-align: center;
   font-family: 'Sono', sans-serif;
 
 }
