@@ -10,7 +10,7 @@ import ProjectDetails from './pages/Projects/ProjectDetails'
 
 function App() {
   return (
-    <div id="page-container">
+    <>
       <NavBar />
       <Routes>
         <Route path="/" element={< Home />} />
@@ -21,7 +21,7 @@ function App() {
         {/* <Route path="/resume" element={< Resume />} /> */}
         <Route path="/projects/:projectDetails" element={<ProjectDetails />} />
       </Routes>
-    </div>
+    </>
   );
 }
 

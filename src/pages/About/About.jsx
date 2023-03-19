@@ -6,6 +6,7 @@ const About = () => {
     <main className={styles.pageContainer}>
       <div className={styles.section}>
         <div className={styles.brandStatement}>
+          <div>A little about me ...</div>
           <p>
             As a software engineer with a background in healthcare administration and computer science, I bring a detail-oriented and self-motivated mindset to what I build.
             <br />
