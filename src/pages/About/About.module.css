@@ -50,7 +50,7 @@
   width: 25%;
   font-weight: bold;
   font-size: 25px;
-  border: dashed var(--font-color);
+  border: var(--font-color) 4px dotted;
   padding: 1%;
   margin: 2%;
   box-shadow: inset 0 0 0 0 var(--font-color);
@@ -67,10 +67,18 @@
   font-size: 17px;
 }
 
-.links > a:hover {
-  box-shadow: inset 200px 0 0 0 var(--font-color);
+.links > a:hover{
   color: white;
   border-color: white;
+}
+
+.links > a:first-child:hover {
+  box-shadow: inset 200px 0 0 0 var(--font-color);
+  
+}
+
+.links > a:last-child:hover {
+  box-shadow: inset -200px 0 0  0 var(--font-color);
 }
 
 
