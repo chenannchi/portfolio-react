@@ -2,13 +2,13 @@
   /* padding: 0 2%; */
   max-width: 100vw;
   /* width: 100%; */
-  min-height: 93vh;
+  min-height: 92vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.section{
+.section {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -33,13 +33,46 @@
   width: 95%;
   max-width: 600px;
   order: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.links > a {
+  width: 25%;
+  font-weight: bold;
+  font-size: 25px;
+  border: dashed var(--font-color);
+  padding: 1%;
+  margin: 2%;
+  box-shadow: inset 0 0 0 0 var(--font-color);
+  color: var(--font-color);
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+.links > div {
+  width: 100%;
+}
 
 .brandStatement>p {
   color: #F0EBCE;
   font-size: 17px;
 }
+
+.links > a:hover {
+  box-shadow: inset 200px 0 0 0 var(--font-color);
+  color: white;
+  border-color: white;
+}
+
 
 @media (min-width:768px) {
   .pageContainer {
@@ -49,17 +82,17 @@
     justify-content: center;
   }
 
-  .section{
+  .section {
     flex-direction: row;
   }
 
   .profileImage {
-    height:60vh;
+    height: 70vh;
     border-radius: 10px;
   }
 
-  .brandStatement{
-    height: 60vh;
+  .brandStatement {
+    height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -68,7 +101,7 @@
     opacity: 0.9;
   }
 
-  .brandStatement p{
+  .brandStatement p {
     font-size: 20px;
   }
 

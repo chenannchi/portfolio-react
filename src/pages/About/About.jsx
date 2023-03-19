@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import styles from "../About/About.module.css"
 
 const About = () => {
@@ -15,6 +16,10 @@ const About = () => {
             I am dedicated to designing and building websites to improve the way users access information.
             <br />
           </p>
+          <div className={styles.links}>
+            <Link to="../projects"><div>Projects</div></Link>
+            <Link to="../contact"><div>Contact</div></Link>
+          </div>
         </div>
         <img className={styles.profileImage} src="./images/photo2.jpg" alt="profile" />
       </div>
