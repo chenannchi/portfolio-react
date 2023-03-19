@@ -1,7 +1,7 @@
 .pageContainer {
-  padding: 0 2%;
+  /* padding: 0 2%; */
   max-width: 100vw;
-  width: 100%;
+  /* width: 100%; */
   min-height: 93vh;
   display: flex;
   justify-content: center;
@@ -49,10 +49,27 @@
     justify-content: center;
   }
 
+  .section{
+    flex-direction: row;
+  }
+
   .profileImage {
-    /* width: 18vw; */
-    /* margin: 20px; */
-    width: 60%;
+    height:60vh;
+    border-radius: 10px;
+  }
+
+  .brandStatement{
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    order: 0;
+    opacity: 0.9;
+  }
+
+  .brandStatement p{
+    font-size: 20px;
   }
 
 }
