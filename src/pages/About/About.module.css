@@ -81,11 +81,11 @@
 }
 
 .links>a:first-child:hover {
-  box-shadow: inset -200px 0 0 0 var(--font-color);
+  box-shadow: inset -300px 0 0 0 var(--font-color);
 }
 
 .links>a:last-child:hover {
-  box-shadow: inset 200px 0 0 0 var(--font-color);
+  box-shadow: inset 300px 0 0 0 var(--font-color);
 }
 
 
@@ -95,6 +95,7 @@
     background-size: cover;
     flex-direction: row;
     justify-content: center;
+    margin: 0;
   }
 
   .section {
@@ -102,16 +103,18 @@
   }
 
   .profileImage {
-    height: 70vh;
+    height: 75vh;
+    margin: 0 2%;
     border-radius: 10px;
   }
 
   .brandStatement {
-    height: 70vh;
+    height: 75vh;
+    width: 60vw;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5%;
+    padding: 2%;
     order: 0;
     /* opacity: 0.9; */
   }
