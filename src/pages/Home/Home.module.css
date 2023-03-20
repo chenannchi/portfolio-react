@@ -31,10 +31,12 @@
 
 #title {
   font-size: 20px;
+  font-weight: bold;
 }
 
 #welcome {
   font-size: 22px;
+  font-weight: bolder;
 }
 
 @media (min-width:1024px) {

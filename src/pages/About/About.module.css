@@ -1,6 +1,7 @@
 .pageContainer {
   max-width: 100%;
-  min-height: 92vh;
+  min-height: 100vh;
+  /* height: 100%; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -103,13 +104,14 @@
   }
 
   .profileImage {
-    height: 75vh;
+    height: 70vh;
     margin: 0 2%;
     border-radius: 10px;
   }
 
   .brandStatement {
-    height: 75vh;
+    max-width: 700px;
+    height: 70vh;
     width: auto;
     display: flex;
     justify-content: center;
