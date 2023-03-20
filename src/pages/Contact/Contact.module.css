@@ -32,7 +32,7 @@ h1{
   background-color: #395144;
   color:var(--font-color);
   padding: 0 10px;
-  width: 80vw;
+  width: 90vw;
 }
 
 @media (min-width:1024px) {
