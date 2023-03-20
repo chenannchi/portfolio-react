@@ -36,11 +36,14 @@ function NavBar() {
                 </li>
 
                 <li>
-                    {/* <Link to='/resume'>
+                    <Link to='/resume'>
                         Resume
-                    </Link> */}
-                    <a href="Anchi Chen Resume.pdf" className={styles.resumeLink} target="_blank">Resume</a>
+                    </Link>
                 </li>
+                
+                {/* <li>
+                    <a href="Anchi-Chen-Resume.pdf" className={styles.resumeLink} target="_blank">Resume</a>
+                </li> */}
             </ul>
         </nav>
     )

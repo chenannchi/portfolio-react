@@ -1,0 +1,22 @@
+.pageContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 100vw;
+  min-height: 93vh;
+}
+
+.pageContainer > div{
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#resume{
+  width: 85%;
+  height: 80vh;
+  /* zoom: 5; */
+}
