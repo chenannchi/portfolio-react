@@ -12,6 +12,9 @@ body {
   --font-color:#AA8B56;
   --content-color:#e0ba61;
   --bg-color:#395144;
+  --title-font: 'Noto Serif Lao', serif;
+  --content-font: 'Sono', sans-serif;
+
 }
 
 code {
