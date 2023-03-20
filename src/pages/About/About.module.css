@@ -110,7 +110,7 @@
 
   .brandStatement {
     height: 75vh;
-    width: 60vw;
+    width: auto;
     display: flex;
     justify-content: center;
     align-items: center;
