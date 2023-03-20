@@ -8,7 +8,7 @@
 }
 
 .pageContainer > div{
-  width: 80%;
+  width: 100%;
   height: 100%;
   display: flex;
   justify-content: center;
@@ -16,7 +16,17 @@
 }
 
 #resume{
-  width: 85%;
+  width: 80vw;
   height: 80vh;
+  scale:1;
   /* zoom: 5; */
+  
+}
+
+@media only screen and (min-width:768px) {
+  #resume{
+    width: 85%;
+    height: 80vh;
+    /* zoom: 5; */
+  }
 }

@@ -45,4 +45,8 @@
   .homeImage{
     flex-direction: row;
   }
+
+  .homeImage > img{
+    order: 2;
+  }
 }
