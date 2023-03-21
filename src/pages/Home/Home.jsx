@@ -10,10 +10,10 @@ const Home = () => {
             <div id={styles.welcome}>Welcome to my portfolio!</div>
           </div>
           <div className={styles.titleContainer}>
-            <div id={styles.name}>I'm Anchi Chen.</div>
+            <div id={styles.name}>I'm&nbsp;<b>Anchi Chen</b>.</div>
           </div>
           <div className={styles.titleContainer}>
-            <div id={styles.title}>I'm a Software Engineer.</div>
+            <div id={styles.title}>---- A Full-Stack Software Engineer!</div>
           </div>
         </div>
       </div>

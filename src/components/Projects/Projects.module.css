@@ -56,6 +56,8 @@
   vertical-align: center;
   font-size: 1.2em;
   font-weight: bold;
+  font-family: var(--title-font);
+  font-weight: 800;
 }
 
 #title>div{

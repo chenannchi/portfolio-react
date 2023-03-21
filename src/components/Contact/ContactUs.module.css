@@ -1,3 +1,8 @@
+h2
+,label{
+  font-family: var(--title-font);
+}
+
 .form{
   display: flex;
   justify-content: center;
