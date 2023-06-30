@@ -1,7 +1,8 @@
 import { Link } from "react-router-dom"
 import styles from "./NavBar.module.css"
+import LanguageSwitch from "../LanguageSwitch/LanguageSwitch"
 
-function NavBar() {
+function NavBar({ isLanguageEng, handleLanguageChange }) {
     return (
         <nav className={styles.navbar}>
             <ul>
@@ -40,10 +41,11 @@ function NavBar() {
                         Resume
                     </Link>
                 </li>
-                
+
                 {/* <li>
                     <a href="Anchi-Chen-Resume.pdf" className={styles.resumeLink} target="_blank">Resume</a>
                 </li> */}
+                <LanguageSwitch isLanguageEng={isLanguageEng} handleLanguageChange={handleLanguageChange} />
             </ul>
         </nav>
     )
