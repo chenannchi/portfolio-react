@@ -14,31 +14,33 @@ function NavBar({ isLanguageEng, handleLanguageChange }) {
 
                 <li>
                     <Link to='/home'>
-                        Home
+                        {isLanguageEng ?
+                            "Home" : "首頁"
+                        }
                     </Link>
                 </li>
 
                 <li>
                     <Link to='/about'>
-                        About
+                        {isLanguageEng ? "About" : "關於"}
                     </Link>
                 </li>
 
                 <li>
                     <Link to='/projects'>
-                        Projects
+                        {isLanguageEng?"Projects":"專案作品集"}
                     </Link>
                 </li>
 
                 <li>
                     <Link to='/contact'>
-                        Contact
+                        {isLanguageEng?"Contact":"聯絡我"}
                     </Link>
                 </li>
 
                 <li>
                     <Link to='/resume'>
-                        Resume
+                        {isLanguageEng?"Resume":"履歷"}
                     </Link>
                 </li>
 

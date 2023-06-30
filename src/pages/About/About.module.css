@@ -83,11 +83,11 @@
 }
 
 .links > a:first-child:hover {
-  box-shadow: inset -300px 0 0 0 white;
+  box-shadow: inset -300px 0 0 0 var(--font-color);
 }
 
 .links > a:last-child:hover {
-  box-shadow: inset 300px 0 0 0 white;
+  box-shadow: inset 300px 0 0 0 var(--font-color);
 }
 
 @media (min-width: 768px) {
