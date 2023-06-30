@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"
 import styles from "../Projects/Project.module.css"
 import { FaArrowLeft } from 'react-icons/fa';
 
-const ProjectDetails = () => {
+const ProjectDetails = ({ handleLanguageChange, isLanguageEng }) => {
   let projectDetails = useParams()
   const project = findProject(projectDetails.projectDetails)
   return (

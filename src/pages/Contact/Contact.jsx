@@ -1,16 +1,15 @@
 import styles from "../Contact/Contact.module.css"
 import { ContactUs } from "../../components/Contact/ContactUs"
 
-const Contact = () => {
+const Contact = ({ handleLanguageChange, isLanguageEng }) => {
   return (
     <main className={styles.pageContainer}>
-      {/* <h1>Contact</h1> */}
       <div className={styles.container}>
-        <ContactUs />
+        <ContactUs handleLanguageChange = { handleLanguageChange} isLanguageEng={isLanguageEng } />
       </div>
       <div className={styles.container}>
         <div className={styles.contactInfo}>
-          <h2>Feel free to contact & follow me!</h2>
+          <h2>{isLanguageEng?"Feel free to contact & follow me!":"歡迎聯絡或追蹤我!"}</h2>
           <div className={styles.icons}>
             <a href="mailto: anchichenusa@gmail.com" target="_blank" rel="noreferrer">
               <img src="https://cdn-icons-png.flaticon.com/128/8760/8760637.png" alt="email icon" />
