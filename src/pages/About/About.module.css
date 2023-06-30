@@ -1,11 +1,10 @@
 .pageContainer {
   max-width: 100%;
   min-height: 100vh;
-  /* height: 100%; */
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 5% 2%;
+  padding: 5% 2% 2% 2%;
 }
 
 .section {
@@ -23,7 +22,7 @@
   width: auto;
 }
 
-.brandStatement {
+.brandStatementContainer {
   background-color: rgba(57, 81, 68, .9);
   border-radius: 10px;
   margin: 5% 0;
@@ -35,7 +34,10 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
 
+.brandStatement {
+  max-height: 100%;
 }
 
 .links {
@@ -45,14 +47,14 @@
   width: 100%;
 }
 
-.brandStatement>div:first-child {
+.brandStatement > div:first-child {
   font-size: 30px;
   color: var(--content-color);
   font-weight: bolder;
   font-family: 'Noto Serif Lao', serif;
 }
 
-.links>a {
+.links > a {
   width: 50%;
   font-weight: bold;
   font-size: 20px;
@@ -68,29 +70,27 @@
   font-family: 'Sono', sans-serif;
 }
 
-.brandStatement>p {
+.brandStatement p {
   color: #F0EBCE;
   font-size: 20px;
   text-align: center;
   font-family: 'Sono', sans-serif;
-
 }
 
-.links>a:hover {
+.links > a:hover {
   color: white;
   border-color: white;
 }
 
-.links>a:first-child:hover {
-  box-shadow: inset -300px 0 0 0 var(--font-color);
+.links > a:first-child:hover {
+  box-shadow: inset -300px 0 0 0 white;
 }
 
-.links>a:last-child:hover {
-  box-shadow: inset 300px 0 0 0 var(--font-color);
+.links > a:last-child:hover {
+  box-shadow: inset 300px 0 0 0 white;
 }
 
-
-@media (min-width:768px) {
+@media (min-width: 768px) {
   .pageContainer {
     background-image: url(../../../public/images/plant-top-left-bottom-right.jpg);
     background-size: cover;
@@ -109,7 +109,7 @@
     border-radius: 10px;
   }
 
-  .brandStatement {
+  .brandStatementContainer {
     max-width: 700px;
     height: 70vh;
     width: auto;
@@ -118,11 +118,13 @@
     align-items: center;
     padding: 2%;
     order: 0;
-    /* opacity: 0.9; */
   }
 
-  .brandStatement p {
+  .brandStatementContainer p {
+    font-size: 17px;
+  }
+
+  .link {
     font-size: 20px;
   }
-
 }
