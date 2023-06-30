@@ -1,19 +1,19 @@
-h1{
-  color:var(--font-color);
+h1 {
+  color: var(--font-color);
   background-color: #395144;
   border-radius: 20px;
   padding: 5px 10px;
-  border:dotted 5px ;
+  border: dotted 5px;
 }
 
-.pageContainer{
+.pageContainer {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px;
+  padding: 2%;
 }
 
-.icons img{
+.icons img {
   width: 60px;
   background-color: #D8CCA3;
   border-radius: 50px;
@@ -21,30 +21,41 @@ h1{
   margin: 10px;
 }
 
-.icons img:hover{
+.icons img:hover {
   background-color: #A27B5C;
 }
 
-.container{
-  margin: 5px;
+.container {
+  margin: 2%;
   border-radius: 20px;
   text-align: center;
   background-color: #395144;
-  color:var(--font-color);
+  color: var(--font-color);
   padding: 0 10px;
   width: 90vw;
 }
 
 @media (min-width:1024px) {
-  .container{
-    width:600px;
+  .pageContainer {
+    align-items: flex-start;
+    flex-direction: row;
+    padding-top: 10vh;
+  }
+
+  .container {
+    width: 600px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    max-height: 70vh;
   }
 
-  .container > *{
+  .container>* {
     margin: 10px;
+  }
+
+  .pageContainer div:nth-child(2){
+    max-width: 35vw;
   }
 }
