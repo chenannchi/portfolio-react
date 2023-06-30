@@ -10,5 +10,5 @@ const ProjectsList = (props) => {
     </div>
   );
 }
- 
+
 export default ProjectsList;
