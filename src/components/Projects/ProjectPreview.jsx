@@ -18,6 +18,11 @@ const ProjectPreview = (props) => {
             {props.project.title}
           </div>
         </div>
+        <div className={styles.tech}>
+          <div>
+            {props.project.tech}
+          </div>
+        </div>
       </Link>
     </div>
     // </div>

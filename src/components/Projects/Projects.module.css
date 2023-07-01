@@ -1,5 +1,6 @@
 .cardsContainer{
-  width: 100%;
+  max-width: 100vw;
+  min-height: 93vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9,16 +10,24 @@
 
 .container{
   border-radius: 10px;
-  /* box-shadow: 4px 4px rgba(0, 0, 0, .3) ; */
   margin: 5% 0;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   flex-direction: column;
   background-color: var(--bg-color);
   width: 100%;
   padding-bottom: 1%;
   text-align: center;
+  transition: all 0.3s ease;
+  height: 200px;
+}
+
+.tech{
+  opacity: 0;
+  transition: all 0.3s ease;
+  max-width: 100%;
+  height: auto;
 }
 
 .cardsContainer a{
@@ -27,16 +36,23 @@
 
 .container a{
   width: 100%;
-  height: 100%;
+  /* height: 100%; */
 }
 
 .container:hover{
   background-color: #9BA17B;
+  height: 250px;
+  transition: all 0.3s ease;
+}
+
+.container:hover .tech{
+  opacity: 1;
 }
 
 .container > a > img{
   border-radius: 10px;
   width: 100%;
+  height: 150px;
 }
 
 .container > h3{
@@ -52,7 +68,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%;
+  /* height: 100%; */
   vertical-align: center;
   font-size: 1.2em;
   font-weight: bold;
@@ -70,25 +86,29 @@
     width: 100%;
     flex-wrap: wrap;
     flex-direction: row;
-    padding: 2%;
+    padding: 1%;
   }
 
   .container{
     width: 25%;
-    margin: 2%;
+    margin: 1%;
     align-items: center;
     justify-content: flex-start;
     height: 35vh;
   }
 
+  .container:hover{
+    background-color: #9BA17B;
+    height: 40vh;
+    transition: all 0.3s ease;
+  }
+
   .container > a > img{
     width: 100%;
-    height: 70%;
   }
 
   #title{
     font-size: 1.4em;
     height: 30%;
-    /* padding: 0; */
   }
 }
