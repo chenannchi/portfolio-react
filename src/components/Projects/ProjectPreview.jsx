@@ -13,15 +13,15 @@ const ProjectPreview = (props) => {
           src={props.project.image}
           alt={props.project.title}
         />
-        <div id={styles.title}>
+        <div className={styles.title}>
           <div>
             {props.project.title}
           </div>
         </div>
         <div className={styles.tech}>
-          <div>
+          {/* <div> */}
             {props.project.tech}
-          </div>
+          {/* </div> */}
         </div>
       </Link>
     </div>

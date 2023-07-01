@@ -13,6 +13,8 @@ ul{
   font-size: 100%;
   font-weight: bold;
   width: 100%;
+  padding-right: 2%;
+  /* padding-top: 1%; */
 }
 
 li:hover{
@@ -29,7 +31,7 @@ li{
 
 .navbar{
   background-color: #395144;
-  height: 7vh;
+  height: 8vh;
   width: 100vw;
   display: flex;
   justify-content: center;
