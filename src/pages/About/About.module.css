@@ -60,7 +60,7 @@
   font-size: 20px;
   border: var(--content-color) 4px dotted;
   padding: 1%;
-  margin: 5%;
+  margin: 2%;
   box-shadow: inset 0 0 0 0 var(--font-color);
   color: var(--content-color);
   transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
@@ -108,14 +108,14 @@
   }
 
   .profileImage {
-    height: 70vh;
+    height: 75vh;
     margin: 0 2%;
     border-radius: 10px;
   }
 
   .brandStatementContainer {
     max-width: 700px;
-    height: 70vh;
+    height: 75vh;
     width: auto;
     display: flex;
     justify-content: center;
@@ -130,5 +130,9 @@
 
   .link {
     font-size: 20px;
+  }
+
+  #mandarinAbout{
+    font-size: 95%;
   }
 }
