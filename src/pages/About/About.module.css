@@ -90,6 +90,10 @@
   box-shadow: inset 300px 0 0 0 var(--font-color);
 }
 
+#mandarinAbout{
+  text-align: left;
+}
+
 @media (min-width: 768px) {
   .pageContainer {
     background-image: url(../../../public/images/plant-top-left-bottom-right.jpg);
