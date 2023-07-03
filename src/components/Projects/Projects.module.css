@@ -29,7 +29,7 @@
 .container a img {
   border-radius: 10px;
   width: 100%;
-  height: 150px;
+  height: 140px;
 }
 
 .container:hover {
@@ -117,13 +117,13 @@
     margin: 1%;
     align-items: center;
     justify-content: flex-start;
-    height: 40vh;
+    height: 38vh;
     max-height: 260px;
   }
 
   .container:hover {
     background-color: #9BA17B;
-    height: 40vh;
+    height: 42vh;
     transition: all 0.3s ease;
   }
 
