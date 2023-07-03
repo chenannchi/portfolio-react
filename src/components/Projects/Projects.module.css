@@ -80,7 +80,7 @@
 }
 
 .projectsTitle {
-  margin-bottom: 2%;
+  margin-bottom: 1%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -117,7 +117,8 @@
     margin: 1%;
     align-items: center;
     justify-content: flex-start;
-    height: 37vh;
+    height: 40vh;
+    max-height: 260px;
   }
 
   .container:hover {
