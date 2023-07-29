@@ -1,6 +1,12 @@
+:root {
+  --main-font: var(--title-font);
+  --bg-color: #EDDFB3;
+  --hover-color: #A27B5C;
+}
+
 h2
 ,label{
-  font-family: var(--title-font);
+  font-family: var(--main-font);
 }
 
 .form{
@@ -19,17 +25,17 @@ h2
 .form > input
 , .form > textarea{
   width:68%;
-}
-
-.form > *{
   margin: 5px;
   border-radius: 10px;
   padding: 5px;
 }
 
-.submitBtn{
+.form > textarea {
+  height: 100px; /* Set an appropriate height for the textarea */
+}
+
+.formSubmit{
   width: 100%;
-  
 }
 
 .btn{
@@ -45,8 +51,8 @@ h2
 }
 
 .btn:hover{
-  background-color: #A27B5C;
-  color: #EDDFB3;
+  background-color: var(--hover-color);
+  color: var(--bg-color);
 }
 
 .contactInfo{
@@ -62,6 +68,6 @@ h2
 #statusMsg{
   font-size: 20px;
   font-weight: bold;
-  color:#EDDFB3;
+  color:var(--bg-color);
 }
 
